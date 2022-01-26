@@ -5,8 +5,8 @@ const app = express();
 
 const startServer = () => {
     app.listen(3000, () => {
-        console.log('Started api service on port: ${port}');
-        console.log('On host ${host}');
+        console.log(`Started api service on port: ${port}`);
+        console.log(`On host ${host}`);
     });
 }
 
