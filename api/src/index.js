@@ -4,7 +4,7 @@ const { host, port } = require("./configuration");
 const app = express();
 
 const startServer = () => {
-    app.listen(3000, () => {
+    app.listen(port, () => {
         console.log(`Started api service on port: ${port}`);
         console.log(`On host ${host}`);
     });
