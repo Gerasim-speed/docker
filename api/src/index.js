@@ -7,6 +7,7 @@ const startServer = () => {
     app.listen(port, () => {
         console.log(`Started api service on port: ${port}`);
         console.log(`On host ${host}`);
+        console.log(`DB url ${db}`);
     });
 }
 
