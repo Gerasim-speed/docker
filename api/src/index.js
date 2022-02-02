@@ -1,6 +1,6 @@
 const express = require("express");
 const { connectDb } = require("./helpers/db");
-const { host, port } = require("./configuration");
+const { host, port, db } = require("./configuration");
 const app = express();
 
 const startServer = () => {
